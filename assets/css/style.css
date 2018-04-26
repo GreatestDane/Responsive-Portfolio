@@ -33,7 +33,7 @@
 #trivia {
     margin: 20px;
     position: relative;
-    right: 470px;
+    right: 610px;
     top: 250px;
     z-index: 0;
 }
@@ -41,7 +41,7 @@
 #widgit {
     margin: 20px;
     position: relative;
-    left: 250px;
+    left: 0px;
     z-index: 0;
 }
 
@@ -49,7 +49,7 @@
     margin: 20px;
     position: relative;
     top: 250px;
-    right: 240px;
+    right: 494px;
     z-index: 0;
 }
 /* end images for portfolio*/
@@ -81,32 +81,32 @@
 
 #box1 {
     position: relative;
-    bottom: 338px;
+    bottom: 316px;
     left: 20px;
 }
 
 #box2 {
     position: relative;
-    bottom: 409px;
+    bottom: 365px;
     left: 260px;
 }
 
 #box3 {
     position: relative;
-    bottom: 238px;
+    bottom: 172px;
     left: 20px;
 }
 
 #box4 {
     position: relative;
-    bottom: 309px;
-    left: 270px;
+    bottom: 222px;
+    left: 258px;
 }
 
 #box5 {
     position: relative;
-    bottom: 130px;
-    left: 24px;
+    bottom: 23px;
+    left: 8px;
 }
 /* end section to manage the portfolio boxes*/
 
@@ -388,6 +388,64 @@ input[type=submit]:hover {
     }
 
     .main-content {
-        background-color: yellow;
+        width: 350px;
+        height: 830px;
+    }
+
+    /* portfolio time */
+
+    #hangman {
+        position: relative;
+        margin-left: 70px;
+    }
+
+    #box1 {
+        position: relative;
+        top: -1039px;
+        left: 70px;
+    }
+
+    #rpg {
+        position: relative;
+        margin-left: 70px;
+    }
+
+    #box2 {
+        position: relative;
+        top: -849px;
+        left: 70px;
+    }
+
+    #trivia {
+        position: relative;
+        left: 1px;
+    }
+
+    #box3 {
+        position: relative;
+        top: -654px;
+        left: 76px;
+    }
+
+    #widgit {
+        position: relative;
+        left: 1px;
+    }
+
+    #box4 {
+        position: relative;
+        top: -461px;
+        left: 76px;
+    }
+
+    #rps {
+        position: relative;
+        left: 1px;
+    }
+
+    #box5 {
+        position: relative;
+        top: -263px;
+        left: 76px;
     }
   }
