@@ -316,12 +316,65 @@ input[type=submit]:hover {
 
     .links {
         position: static;
-        float: left;
+        float: right;
     }
 
     .main-content {
-        background-color: blue;
+        width: 710px;
+        height: 500px;
     }
+
+    .name {
+        position: relative;
+        left: 0px;
+     }
+
+     #main-text {
+         float: left;
+     }
+     /* begin portfolio section */
+
+     #box1 {
+         top: -550px;
+     }
+
+     #box2 {
+         top: -600px;
+         left: 260px;
+     }
+
+     #trivia {
+         position: relative;
+         top: 5px;
+         left: -110px;
+     }
+
+     #box3 {
+         top: -410px;
+         /* left: -110px; */
+     }
+
+     #widgit {
+         position: relative;
+         top: 5px;
+         left: -120px;
+     }
+
+     #box4 {
+         top: -460px;
+         left: 257px;
+     }
+
+     #rps {
+         position: relative;
+         top: 10px;
+         left: -240px;
+     }
+
+     #box5 {
+         top: -263px;
+         left: 15px;
+     }
   }
 
   @media only screen and (max-width: 640px) {
