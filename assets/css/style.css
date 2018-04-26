@@ -219,3 +219,122 @@ input[type=submit]:hover {
     padding: 20px;
 }
 /* end contact form CSS */
+
+/* add break points with media queries */
+
+@media only screen and (max-width: 980px) {
+    header {
+      position: static;
+    }
+
+    .links {
+        position: relative;
+        right: 70px;
+    }
+
+    .main-content {
+        /* background-color: red; */
+        width: 300px;
+        height: 880px;
+    }
+
+    .name {
+       position: relative;
+       left: 300px; 
+       width: 300px;
+    }
+
+    #dmg {
+        font-size: 25px;
+    }
+
+    #dane {
+        position: relative;
+        margin-left: 50px;
+        
+    }
+
+    #main-text {
+        float: right;
+    }
+/* start portfolio images */
+    #portfolio {
+        height: 1250px;
+    }
+
+    #box1 {
+        top: -1034px;
+        left: 19px;
+    }
+
+    #box2 {
+        top: -848px;
+        left: 20px;
+    }
+
+    #trivia {
+        position: relative;
+        left: -37px;
+        top: -21px;
+    }
+
+    #box3 {
+        position: relative;
+        left: 20px;
+        top: -700px;
+    }
+
+    #widgit {
+        position: relative;
+        top: -40px;
+        left: -30px;
+    }
+
+    #box4 {
+        position: relative;
+        left: 20px;
+        top: -505px;
+    }
+
+    #rps {
+        position:relative;
+        top: -60px;
+        left: -30px;
+    }
+
+    #box5 {
+        position: relative;
+        left: 20px;
+        top: -300px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    header {
+        position: static;
+      }
+
+    .links {
+        position: static;
+        float: left;
+    }
+
+    .main-content {
+        background-color: blue;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    header {
+        position: static;
+      }
+
+    .links {
+        position: static;
+        float: right;
+    }
+
+    .main-content {
+        background-color: yellow;
+    }
+  }
